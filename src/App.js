@@ -70,7 +70,7 @@ class App extends Component {
       );
     }
 
-    return <div>Loading dapp...</div>;
+    return <div>Loading dapp... You will need MetaMask browser plugin set to Ropsten Test Net for it to work.</div>;
   }
 }
 

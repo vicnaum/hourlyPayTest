@@ -25,7 +25,7 @@ class Main extends React.Component {
   }
 
   changeAddress = (address) => {
-    this.props.history.push(`/contract/${address}`);
+    this.props.history.push(`/${address}`);
     window.location.reload();
   } 
 

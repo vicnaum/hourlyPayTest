@@ -1,14 +1,14 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Main from "./Main";
 
 const Router = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
-      <Route path="/contract/:address" component={Main} />
+      <Route path="/:address" component={Main} />
       <Route component={Main} />
     </Switch>
-  </BrowserRouter>
+  </HashRouter>
 )
 
 export default Router;
